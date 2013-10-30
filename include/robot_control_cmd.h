@@ -1,0 +1,23 @@
+//This file is about the robot control cmd msg define
+#ifndef ROBOT_CONTROL_CMD_H
+#define ROBOT_CONTROL_CMD_H
+#define CMD_ROBOT_TEACH_BEGIN 1
+#define CMD_ROBOT_TEACH_END   2
+#define CMD_ROBOT_ADD_POINT   3
+#define CMD_ROBOT_DELET_POINT 4
+
+#define CMD_ROBOT_RUN_BEGIN   11
+#define CMD_ROBOT_RUN_END     12
+#define CMD_ROBOT_READ_POINT  13
+
+#define RPY_ROBOT_TEACH_BEGIN 21
+#define RPY_ROBOT_TEACH_END   22
+#define RPY_ROBOT_ADD_POINT   23
+#define RPY_ROBOT_DELET_POINT 24
+
+#define RPY_ROBOT_RUN_BEGIN   31
+#define RPY_ROBOT_RUN_END     32
+#define RPY_ROBOT_READ_POINT  33
+
+#endif  //ROBOT_CONTROL_H
+
